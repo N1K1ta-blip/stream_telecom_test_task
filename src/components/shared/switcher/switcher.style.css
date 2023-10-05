@@ -1,0 +1,35 @@
+.switcher {
+    border-radius: 8px;
+    display: flex;
+}
+
+.switch_item {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    cursor: pointer;
+    background: #F4F4F4;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.switch_item:nth-child(1) {
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.switch_item:nth-last-child(1) {
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.active {
+    background: #FFFFFF;
+    border-bottom: 2px solid #2146CE;
+    color: #2146CE;
+}

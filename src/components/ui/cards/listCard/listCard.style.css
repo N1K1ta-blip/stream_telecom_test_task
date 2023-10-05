@@ -1,0 +1,14 @@
+.listCard {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.listCard_item {
+    width: 100%;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 10px;
+}
