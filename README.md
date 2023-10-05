@@ -4,7 +4,7 @@
    git clone https://github.com/N1K1ta-blip/stream_telecom_test_task.git
 ```
 ```js
-   git cd stream_telecom_test_task
+   cd stream_telecom_test_task
 ```
 ```js
    yarn
